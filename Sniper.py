@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from txns import TXN
-import argparse, math, getpip, sys, json, requests
+import getpip
+import argparse, math, sys, json, requests
 from time import sleep
 from halo import Halo
 from style import style
